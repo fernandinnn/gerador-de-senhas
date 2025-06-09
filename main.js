@@ -7,9 +7,11 @@ numeroSenha.textContent = 5;
 
 const botoes = document.querySelectorAll('.prametro-senha__botao');
 botoes[0]. onclick = diminuirTamanho;
+botoes[1]. onclick = aumentarTamanho;
 
 console.log(botoes);
 
 function diminuirTamanho(){
     tamanhoSenha = tamanhoSenha - 1;
+    numeroSenha.textContent = tamanhoSenha
 }
